@@ -61,8 +61,20 @@ body {
 #blog {
   position: absolute;
   top: 5%;
-  right: 5%;
   text-decoration: none;
+  color: white;
+  width: 90%
+
+}
+
+#blog a.link {
+  letter-spacing: 0.05em;
+  font-weight: 500;
+}
+
+#blog a.link:hover {
+  color: #11806a;
+  /* font-weight: 500; */
 }
 
 #home {
@@ -125,6 +137,10 @@ a, a:hover {
 
 .post {
   background: rgba(255, 255, 255, 0.1) !important;
+}
+
+.post:hover {
+
 }
 @media only screen and (max-width: 1000px) {
   h1 {
