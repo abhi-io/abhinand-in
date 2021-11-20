@@ -143,6 +143,11 @@ a, a:hover {
 .post:hover {
 
 }
+
+.resume {
+  background: rgba(255, 255, 255, 0.2) !important;
+}
+
 @media only screen and (max-width: 1000px) {
   h1 {
     font-size: 15px;
